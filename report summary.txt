@@ -1,0 +1,9 @@
+I’ve completed performance test on frequently used API for test App. 
+
+30 Concurrent Request with 1 Loop Count; Total Concurrent API requested: 120.
+50 Concurrent Request with 1 Loop Count; Total Concurrent API requested: 200.
+80 Concurrent Request with 1 Loop Count; Total Concurrent API requested: 320.
+85 Concurrent Request with 1 Loop Count; Total Concurrent API requested: 340.
+While executed 85 concurrent request,  found error rate is 0.59%. 
+
+Summary: Server can handle almost concurrent 330 API call with almost zero (0) error rate.
